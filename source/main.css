@@ -4,9 +4,45 @@
     will how you center it inside its parent container.
 
     See: http://bluerobot.com/web/css/center1.html
-    
+
     Don't change the container width.
   */
-  margin: 0 auto;  
+  margin: 0 auto;
   width: 720px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.content {
+  width: 600px;
+  text-align: left;
+  float: right;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  padding-left: 5px;
+}
+
+nav {
+  float:left;
+  width: 110px;
+  margin: 0;
+}
+
+nav ul {
+  padding:0 0 0 10px;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.footer {
+  position: relative;
+  clear:both;
+  padding: 20px 0 20px 0;
+  left: 105px;
 }
