@@ -13,15 +13,12 @@
 }
 
 .content{
-
   width: 600px;
   position: relative;
   left: -35px;
   padding-left: 25px;
   padding-bottom: 15px;
   border-left: 1px solid black;
-  border-bottom: 1px solid black;
-
 }
 
 h1{
@@ -34,25 +31,31 @@ nav{
   width: 120px;
   position: relative;
   padding-bottom: 750px;
-
-  left: -150px;
-  border-bottom: 1px solid black;
+  margin-right: -100px;
+  left: -185px;
+  top: -10px;
 }
 
 nav ul{
   list-style-type: none;
 }
 
-
 body {
   margin: 50px 200px 50px 350px;
 }
 
+div{
+  position: relative;
+}
 
 div.footer{
-  position: relative;
-  padding-bottom: 200px;
-
+  border-top: 1px solid black;
+  width: 750px;
+  left: -150px;
+  top: 0px;
+  bottom: 20px;
+  text-indent: 150px;
+  padding-top: 20px;
 }
 
 
