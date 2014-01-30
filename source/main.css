@@ -10,3 +10,32 @@
   margin: 0 auto;  
   width: 720px;
 }
+
+nav {
+	float:left;
+	width: 99px;
+	padding: 10px;
+}
+
+.content {
+	float: right;
+	width: 580px;
+	padding: 0 10px 0 10px;
+	border-left: solid 1px gray;
+}
+
+.footer {
+	clear: both;
+	padding: 20px;
+	border-top: solid 1px gray;
+	text-indent: 110px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	margin: 0px;
+}
